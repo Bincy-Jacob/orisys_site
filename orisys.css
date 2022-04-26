@@ -71,7 +71,7 @@ span{
 	padding-top: 150px;
 
 }
- .b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8,.b9,.b10,.b11,.b12{
+ .b1{
  	border: 1px solid black;
  	width: 200px;
  	height: 50px;
@@ -170,7 +170,7 @@ span{
 
 
 
-@media screen and (max-width: 495px){
+@media screen and (max-width: 480px){
 	.flex-container{
 	display: flex;
 	flex-flow: column;
@@ -206,7 +206,7 @@ span{
 }
 .sectext{
 	position: absolute;
-	width: 350px;
+	width: 290px;
 	height: 200px;
 	margin-top: 64%;
 	margin-left: 25%;
@@ -218,12 +218,12 @@ span{
 .sectext h2{
 	line-height: 25px;
 	margin: 10px;
-	font-size: 20px;
+	font-size: 18px;
 	color: #00bfff;
 }
 .thirdtxt{
-	position: absolute;
-	top: 80%;
+	/*position: absolute;*/
+	top: 75%;
 	width: 80%;
 	margin-left: 10%;
 }
@@ -234,10 +234,10 @@ span{
 	font-size: 20px;
 }
 .fourtxt{
-	position: absolute;
-	width: 100%;
+	/*position: absolute;*/
+	width: 95%;
 	height: 550px;
-	top: 120%;
+	top: 125%;
 	opacity: .8;
 	background-image: url("img/four.jpeg");
 }
@@ -248,11 +248,11 @@ span{
 	width: 400px;
 	height: 450px;
 	justify-content: space-around;
-	padding-left: 10px;
+	padding-left: 0px;
 	padding-top: 50px;
 
 }
- .b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8,.b9,.b10,.b11,.b12{
+ .b1{
  	border: 1px solid black;
  	width: 150px;
  	height: 50px;
@@ -265,7 +265,7 @@ span{
 	padding-bottom: 3px;
  }
  .fivetxt{
-	position: absolute;
+	/*position: absolute;*/
 	top: 200%;
 	width: 80%;
 	margin-left: 10%;
@@ -273,18 +273,18 @@ span{
 .sixtxt{
 	display: flex;
 	flex-flow: column;
-	position: absolute;
-	top: 250%;
-	margin-left: 10px;
+	/*position: absolute;*/
+	top: 255%;
+	margin-left: 0px;
 }
 .sixtxt img{
-	width: 440px;
+	width: 390px;
 	height: 300px;
 }
 .sixp{
 	position: absolute;
     margin-top: 5%;
-    width: 340px;
+    width: 300px;
     height: 200px;
     margin-left: 40px;
     font-size: 25px;
@@ -292,11 +292,12 @@ span{
     background-color: rgb(0, 0, 0 ,0.7);
     text-align: center;
     padding-top: 40px;
+    overflow: hidden;
 }
 .sixp2{
 	position: absolute;
-    margin-top: 75%;
-    width: 340px;
+    top: 50%;
+    width: 300px;
     height: 200px;
     margin-left: 40px;
     font-size: 25px;
@@ -307,15 +308,15 @@ span{
 }
 .seventxt{
 	position: absolute;
-	margin-top: 530%;
+	top: 215%;
 	width: 100%;
-	height: 600px;
+	height: 400px;
 }
 .seventxt h1{
 	font-size: 40px;
 }
 .box{
-	position: absolute;
+	/*position: absolute;*/
 	margin-top: 3%;
 	margin-left: 140px;
 	width: 130px;
@@ -330,16 +331,16 @@ span{
 	display: flex;
 }
 .ftwo{
-	position: absolute;
-	top: 40%;
+	/*position: absolute;*/
+	top: 60%;
 	width: 150px;
 	height: 400px;
 	margin-left: 10px;
 	line-height: 30px;
 }
 .stwo{
-	position: absolute;
-	top: 40%;
+	/*position: absolute;*/
+	top: 60%;
 	width: 150px;
 	height: 400px;
 	margin-left: 220px;
